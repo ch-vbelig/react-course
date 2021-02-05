@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Grid} from '@material-ui/core';
+import CourseApp from './ReactCourse/CourseApp';
+import UdacityPageApp from './UdacityPage/UdacityPageApp';
+import InstagramApp from './Instagram/InstagramApp';
+import RouterIndex from './RouterExample/RouterIndex';
+import ReduxIndex from './ReduxCourse/ReduxIndex';
+import ReduxToolkitIndex from './ReduxToolkit/ReduxToolkitIndex';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container>
+
+      <Grid item container>
+        <ReduxToolkitIndex />
+      </Grid>
+
+      <Grid item container>
+        <ReduxIndex />
+      </Grid>
+      
+      <Grid item container>
+        <RouterIndex />
+      </Grid>
+      
+      <InstagramApp />
+      <UdacityPageApp />
+      <CourseApp />
+      
+    </Grid>
   );
 }
 
