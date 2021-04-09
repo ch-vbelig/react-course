@@ -5,6 +5,7 @@ import UdacityPageApp from './UdacityPage/UdacityPageApp';
 import InstagramApp from './Instagram/InstagramApp';
 import RouterIndex from './RouterExample/RouterIndex';
 import ReduxIndex from './ReduxCourse/ReduxIndex';
+import LabIndex from './CGLabWork2/LabIndex';
 import ReduxToolkitIndex from './ReduxToolkit/ReduxToolkitIndex';
 
 function App() {
@@ -12,8 +13,12 @@ function App() {
     <Grid container>
 
       <Grid item container>
-        <ReduxToolkitIndex />
+        <LabIndex />
       </Grid>
+
+      {/*<Grid item container>
+        <ReduxToolkitIndex />
+      </Grid>*/}
 
       <Grid item container>
         <ReduxIndex />
