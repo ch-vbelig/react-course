@@ -27,9 +27,6 @@ const Counter = (props) => {
     
     useEffect(() => {
         const promise = requestGetUser()
-        
-        
-
 
     }, [])
 

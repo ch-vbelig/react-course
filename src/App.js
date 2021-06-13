@@ -6,6 +6,7 @@ import InstagramApp from './Instagram/InstagramApp';
 import RouterIndex from './RouterExample/RouterIndex';
 import ReduxIndex from './ReduxCourse/ReduxIndex';
 import LabIndex from './CGLabWork2/LabIndex';
+import GymIndex from './UIRSCalendar/GymIndex';
 import ReduxToolkitIndex from './ReduxToolkit/ReduxToolkitIndex';
 
 function App() {
@@ -13,12 +14,16 @@ function App() {
     <Grid container>
 
       <Grid item container>
+        <GymIndex />
+      </Grid>
+{/*
+      <Grid item container>
         <LabIndex />
       </Grid>
 
-      {/*<Grid item container>
+      <Grid item container>
         <ReduxToolkitIndex />
-      </Grid>*/}
+      </Grid>
 
       <Grid item container>
         <ReduxIndex />
@@ -27,10 +32,11 @@ function App() {
       <Grid item container>
         <RouterIndex />
       </Grid>
-      
+    
       <InstagramApp />
       <UdacityPageApp />
       <CourseApp />
+      */}
       
     </Grid>
   );
